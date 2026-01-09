@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>72205ae5-dd7f-4e3c-a81a-b22c299e37e7</PackageIdentityName>
     <PackageIdentityPublisher>CN=john.braglin</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\john.braglin\Documents\Visual Studio 26\PrositeCM\PrositeCM\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\john.braglin\source\repos\Prosite-Construction-Management\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\john.braglin\Documents\Visual Studio 26\PrositeCM\PrositeCM\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\john.braglin\source\repos\Prosite-Construction-Management\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>D2A7D0BB2A2BBA65E00BEC462A3A5EA174CB02C4CBB623DB8474C3A5EFBD77CF</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>72205ae5-dd7f-4e3c-a81a-b22c299e37e7_1.0.0.0_x64__n7vmccdepxa1p</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>72205ae5-dd7f-4e3c-a81a-b22c299e37e7_n7vmccdepxa1p!App</RegisteredUserModeAppID>
@@ -26,24 +26,24 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\john.braglin\Documents\Visual Studio 26\PrositeCM\PrositeCM\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\john.braglin\source\repos\Prosite-Construction-Management\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2026-01-09T19:25:20.180</Modified>
+      <Modified>2026-01-09T21:56:14.151</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\john.braglin\Documents\Visual Studio 26\PrositeCM\PrositeCM\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\PrositeCM.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\john.braglin\source\repos\Prosite-Construction-Management\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\PrositeCM.runtimeconfig.json">
       <PackagePath>PrositeCM.runtimeconfig.json</PackagePath>
-      <Modified>2026-01-09T04:37:00.670</Modified>
+      <Modified>2026-01-09T21:15:32.504</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\john.braglin\Documents\Visual Studio 26\PrositeCM\PrositeCM\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\john.braglin\source\repos\Prosite-Construction-Management\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>PrositeCM.exe</PackagePath>
-      <Modified>2026-01-09T19:25:18.884</Modified>
+      <Modified>2026-01-09T21:56:13.657</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\john.braglin\Documents\Visual Studio 26\PrositeCM\PrositeCM\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\PrositeCM.dll">
+    <AppxPackagedFile Include="C:\Users\john.braglin\source\repos\Prosite-Construction-Management\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\PrositeCM.dll">
       <PackagePath>PrositeCM.dll</PackagePath>
-      <Modified>2026-01-09T19:25:18.847</Modified>
+      <Modified>2026-01-09T21:56:13.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\john.braglin\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.22\runtimes\win-x64\lib\net8.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -781,6 +781,10 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2024-11-11T17:23:04.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\john.braglin\.nuget\packages\communitytoolkit.mvvm\8.4.0\lib\net8.0-windows10.0.17763\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
+      <Modified>2024-12-12T07:54:40.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\john.braglin\.nuget\packages\microsoft.windowsappsdk.ai\1.8.39\lib\net6.0-windows10.0.17763.0\Microsoft.Graphics.Imaging.Projection.dll">
       <PackagePath>Microsoft.Graphics.Imaging.Projection.dll</PackagePath>
       <Modified>2025-11-05T21:10:12.000</Modified>
@@ -925,45 +929,45 @@
       <PackagePath>Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
       <Modified>2025-03-30T09:04:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\john.braglin\Documents\Visual Studio 26\PrositeCM\PrositeCM\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\PrositeCM.deps.json">
+    <AppxPackagedFile Include="C:\Users\john.braglin\source\repos\Prosite-Construction-Management\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\PrositeCM.deps.json">
       <PackagePath>PrositeCM.deps.json</PackagePath>
-      <Modified>2026-01-09T04:37:00.595</Modified>
+      <Modified>2026-01-09T21:51:35.557</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\john.braglin\Documents\Visual Studio 26\PrositeCM\PrositeCM\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\john.braglin\source\repos\Prosite-Construction-Management\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2026-01-08T20:03:00.363</Modified>
+      <Modified>2026-01-09T20:03:23.253</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\john.braglin\Documents\Visual Studio 26\PrositeCM\PrositeCM\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\john.braglin\source\repos\Prosite-Construction-Management\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <Modified>2026-01-08T20:03:00.366</Modified>
+      <Modified>2026-01-09T20:03:23.256</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\john.braglin\Documents\Visual Studio 26\PrositeCM\PrositeCM\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\john.braglin\source\repos\Prosite-Construction-Management\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <Modified>2026-01-08T20:03:00.369</Modified>
+      <Modified>2026-01-09T20:03:23.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\john.braglin\Documents\Visual Studio 26\PrositeCM\PrositeCM\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\john.braglin\source\repos\Prosite-Construction-Management\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <Modified>2026-01-08T20:03:00.371</Modified>
+      <Modified>2026-01-09T20:03:23.258</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\john.braglin\Documents\Visual Studio 26\PrositeCM\PrositeCM\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\john.braglin\source\repos\Prosite-Construction-Management\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <Modified>2026-01-08T20:03:00.373</Modified>
+      <Modified>2026-01-09T20:03:23.258</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\john.braglin\Documents\Visual Studio 26\PrositeCM\PrositeCM\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\john.braglin\source\repos\Prosite-Construction-Management\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <Modified>2026-01-08T20:03:00.375</Modified>
+      <Modified>2026-01-09T20:03:23.260</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\john.braglin\Documents\Visual Studio 26\PrositeCM\PrositeCM\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\john.braglin\source\repos\Prosite-Construction-Management\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <Modified>2026-01-08T20:03:00.377</Modified>
+      <Modified>2026-01-09T20:03:23.260</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\john.braglin\.nuget\packages\microsoft.web.webview2\1.0.3179.45\build\..\lib\Microsoft.Web.WebView2.Core.winmd">
       <PackagePath>Microsoft.Web.WebView2.Core.winmd</PackagePath>
       <Modified>2025-03-30T09:03:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\john.braglin\Documents\Visual Studio 26\PrositeCM\PrositeCM\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\john.braglin\source\repos\Prosite-Construction-Management\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2026-01-09T19:25:19.557</Modified>
+      <Modified>2026-01-09T21:56:13.873</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

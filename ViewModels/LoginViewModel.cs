@@ -1,28 +1,44 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
-using CommunityToolkit.Mvvm.Input; // Used for Commands (Buttons)
-using System.Windows.Input;
+using CommunityToolkit.Mvvm.Input;
+using System;
 
 namespace PrositeCM.ViewModels
 {
     public partial class LoginViewModel : ObservableObject
     {
-        [ObservableProperty]
-        private string _username;
+        // 1. Define private backing fields
+        private string _username = string.Empty;
+        private string _password = string.Empty;
+        private string _errorMessage = string.Empty;
 
-        [ObservableProperty]
-        private string _password;
+        // 2. Define public properties manually (Standard MVVM)
+        public string Username
+        {
+            get => _username;
+            set => SetProperty(ref _username, value);
+        }
 
-        [ObservableProperty]
-        private string _errorMessage;
+        public string Password
+        {
+            get => _password;
+            set => SetProperty(ref _password, value);
+        }
 
-        // The toolkit also simplifies commands (button clicks)
-        // This generates a "LoginCommand" that you can bind to in XAML
+        public string ErrorMessage
+        {
+            get => _errorMessage;
+            set => SetProperty(ref _errorMessage, value);
+        }
+
+        public event EventHandler? LoginSuccessful;
+
         [RelayCommand]
         private void Login()
         {
             if (Username == "admin" && Password == "password")
             {
-                // Success logic
+                ErrorMessage = string.Empty;
+                LoginSuccessful?.Invoke(this, EventArgs.Empty);
             }
             else
             {

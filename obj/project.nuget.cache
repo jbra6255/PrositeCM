@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+E0V4CTsibk=",
+  "dgSpecHash": "Oo5eKUXGfco=",
   "success": true,
-  "projectFilePath": "C:\\Users\\john.braglin\\Documents\\Visual Studio 26\\PrositeCM\\PrositeCM\\PrositeCM.csproj",
+  "projectFilePath": "C:\\Users\\john.braglin\\source\\repos\\Prosite-Construction-Management\\PrositeCM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\john.braglin\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
     "C:\\Users\\john.braglin\\.nuget\\packages\\microsoft.web.webview2\\1.0.3179.45\\microsoft.web.webview2.1.0.3179.45.nupkg.sha512",

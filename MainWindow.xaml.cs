@@ -1,5 +1,6 @@
 using Microsoft.UI.Xaml;
-using PrositeCM.Views; // Import your views namespace
+using Microsoft.UI.Xaml.Controls; // <--- ADD THIS LINE
+using PrositeCM.Views;
 
 namespace PrositeCM
 {
@@ -8,8 +9,6 @@ namespace PrositeCM
         public MainWindow()
         {
             this.InitializeComponent();
-
-            // Navigate the frame to the Login Page immediately
             AppFrame.Navigate(typeof(LoginPage));
         }
     }

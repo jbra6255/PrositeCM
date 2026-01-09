@@ -1,3 +1,5 @@
 App.xbf
 MainWindow.xbf
 Views\LoginPage.xbf
+Views\ProjectSelectionPage.xbf
+Views\RegisterPage.xbf

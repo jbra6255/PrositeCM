@@ -7,93 +7,95 @@
     xmlns:vm="using:PrositeCM.ViewModels"
     mc:Ignorable="d">
 
-    <Page.DataContext>
-        <vm:LoginViewModel/>
-    </Page.DataContext>
+	<Page.DataContext>
+		<vm:LoginViewModel x:Name="ViewModel"/>
+	</Page.DataContext>
 
-    <Grid>
-        <Grid VerticalAlignment="Center" HorizontalAlignment="Center"
-              Width="420">
+	<Grid>
+		<Grid VerticalAlignment="Center" HorizontalAlignment="Center" Width="420">
+			<Grid.Shadow>
+				<ThemeShadow />
+			</Grid.Shadow>
 
-            <Grid.Shadow>
-                <ThemeShadow />
-            </Grid.Shadow>
-
-            <Border CornerRadius="16" 
-                    Padding="40" 
+			<Border CornerRadius="16"
+                    Padding="40"
                     Translation="0,0,32"
                     BorderThickness="1"
                     BorderBrush="{ThemeResource SurfaceStrokeColorDefaultBrush}">
 
-                <Border.Background>
-                    <AcrylicBrush TintColor="{ThemeResource SolidBackgroundFillColorBase}"
+				<Border.Background>
+					<AcrylicBrush TintColor="{ThemeResource SolidBackgroundFillColorBase}"
                                   FallbackColor="{ThemeResource SolidBackgroundFillColorBase}"
                                   TintOpacity="0.8"
                                   TintLuminosityOpacity="0.9" />
-                </Border.Background>
+				</Border.Background>
 
-                <StackPanel Spacing="24">
+				<StackPanel Spacing="24">
 
-                    <StackPanel Spacing="8" HorizontalAlignment="Center">
-                        <FontIcon Glyph="&#xE809;" 
-                                  FontFamily="Segoe Fluent Icons" 
-                                  FontSize="48" 
-                                  Foreground="{ThemeResource AccentFillColorDefaultBrush}" 
+					<StackPanel Spacing="8" HorizontalAlignment="Center">
+						<FontIcon Glyph="&#xE809;"
+                                  FontFamily="Segoe Fluent Icons"
+                                  FontSize="48"
+                                  Foreground="{ThemeResource AccentFillColorDefaultBrush}"
                                   Margin="0,0,0,10"/>
 
-                        <TextBlock Text="Welcome Back" 
+						<TextBlock Text="Welcome Back"
                                    Style="{StaticResource TitleTextBlockStyle}"
                                    HorizontalAlignment="Center"/>
 
-                        <TextBlock Text="Sign in to continue to PrositeCM" 
+						<TextBlock Text="Sign in to continue to PrositeCM"
                                    Style="{StaticResource CaptionTextBlockStyle}"
                                    Foreground="{ThemeResource TextFillColorSecondaryBrush}"
                                    HorizontalAlignment="Center"/>
-                    </StackPanel>
+					</StackPanel>
 
-                    <StackPanel Spacing="16">
-                        <TextBox Header="Username" 
-             PlaceholderText="Enter username"
-             Text="{Binding Username, Mode=TwoWay}"
-             CornerRadius="8" />
-                        <PasswordBox Header="Password" 
-                 PlaceholderText="Enter password"
-                 Password="{Binding Password, Mode=TwoWay}"
-                 CornerRadius="8" />
-                        <Grid Height="20">
-                            <TextBlock Text="{Binding ErrorMessage}" 
-                   Foreground="{ThemeResource SystemFillColorCriticalBrush}"
-                   FontSize="12"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Center"/>
-                        </Grid>
-                    </StackPanel>
+					<StackPanel Spacing="16">
+						<TextBox Header="Username"
+                                 PlaceholderText="Enter username"
+                                 Text="{Binding Username, Mode=TwoWay}"
+                                 CornerRadius="8" />
 
-                    <StackPanel Spacing="12">
-                        <Button Click="LoginButton_Click"
+						<PasswordBox x:Name="UserPasswordBox"
+                                     Header="Password"
+                                     PlaceholderText="Enter password"
+                                     PasswordChanged="UserPasswordBox_PasswordChanged"
+                                     CornerRadius="8" />
+
+						<Grid Height="20">
+							<TextBlock Text="{Binding ErrorMessage}"
+                                       Foreground="{ThemeResource SystemFillColorCriticalBrush}"
+                                       FontSize="12"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Center"/>
+						</Grid>
+					</StackPanel>
+
+					<StackPanel Spacing="12">
+						<Button Command="{Binding LoginCommand}"
                                 HorizontalAlignment="Stretch"
                                 Height="45"
                                 CornerRadius="22"
                                 BorderThickness="0">
-                            <Button.Background>
-                                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                                    <GradientStop Color="#4A90E2" Offset="0.0"/>
-                                    <GradientStop Color="#357ABD" Offset="1.0"/>
-                                </LinearGradientBrush>
-                            </Button.Background>
-                            <TextBlock Text="Log In" 
-                                       Foreground="White" 
+							<Button.Background>
+								<LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+									<GradientStop Color="#4A90E2" Offset="0.0"/>
+									<GradientStop Color="#357ABD" Offset="1.0"/>
+								</LinearGradientBrush>
+							</Button.Background>
+							<TextBlock Text="Log In"
+                                       Foreground="White"
                                        FontWeight="SemiBold"
                                        FontSize="16"/>
-                        </Button>
+						</Button>
 
-                        <HyperlinkButton Content="Create a new account" 
-                                         HorizontalAlignment="Center"
-                                         Foreground="{ThemeResource AccentFillColorDefaultBrush}"/>
+                        <HyperlinkButton Content="Create a new account"
+                 HorizontalAlignment="Center"
+                 Foreground="{ThemeResource AccentFillColorDefaultBrush}"
+                 Click="RegisterButton_Click"/> 
                     </StackPanel>
 
-                </StackPanel>
-            </Border>
-        </Grid>
-    </Grid>
+				</StackPanel>
+			</Border>
+		</Grid>
+	</Grid>
 </Page>

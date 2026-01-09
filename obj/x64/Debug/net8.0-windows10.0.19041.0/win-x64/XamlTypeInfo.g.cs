@@ -226,7 +226,7 @@ namespace PrositeCM.PrositeCM_XamlTypeInfo
         
         private void InitTypeTables()
         {
-            _typeNameTable = new string[26];
+            _typeNameTable = new string[35];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -239,22 +239,31 @@ namespace PrositeCM.PrositeCM_XamlTypeInfo
             _typeNameTable[9] = "PrositeCM.MainWindow";
             _typeNameTable[10] = "Microsoft.UI.Xaml.Window";
             _typeNameTable[11] = "PrositeCM.ViewModels.LoginViewModel";
-            _typeNameTable[12] = "String";
-            _typeNameTable[13] = "Microsoft.UI.Xaml.Media.AcrylicBrush";
-            _typeNameTable[14] = "Microsoft.UI.Xaml.Media.XamlCompositionBrushBase";
-            _typeNameTable[15] = "Windows.UI.Color";
-            _typeNameTable[16] = "Double";
-            _typeNameTable[17] = "System.Nullable`1<Double>";
-            _typeNameTable[18] = "TimeSpan";
-            _typeNameTable[19] = "PrositeCM.Views.LoginPage";
-            _typeNameTable[20] = "Microsoft.UI.Xaml.Controls.Page";
-            _typeNameTable[21] = "Microsoft.UI.Xaml.Controls.UserControl";
-            _typeNameTable[22] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[23] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[24] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
-            _typeNameTable[25] = "Int32";
+            _typeNameTable[12] = "CommunityToolkit.Mvvm.ComponentModel.ObservableObject";
+            _typeNameTable[13] = "String";
+            _typeNameTable[14] = "CommunityToolkit.Mvvm.Input.IRelayCommand";
+            _typeNameTable[15] = "Microsoft.UI.Xaml.Media.AcrylicBrush";
+            _typeNameTable[16] = "Microsoft.UI.Xaml.Media.XamlCompositionBrushBase";
+            _typeNameTable[17] = "Windows.UI.Color";
+            _typeNameTable[18] = "Double";
+            _typeNameTable[19] = "System.Nullable`1<Double>";
+            _typeNameTable[20] = "TimeSpan";
+            _typeNameTable[21] = "PrositeCM.Views.LoginPage";
+            _typeNameTable[22] = "Microsoft.UI.Xaml.Controls.Page";
+            _typeNameTable[23] = "Microsoft.UI.Xaml.Controls.UserControl";
+            _typeNameTable[24] = "PrositeCM.ViewModels.ProjectSelectionViewModel";
+            _typeNameTable[25] = "System.Collections.ObjectModel.ObservableCollection`1<PrositeCM.Models.Project>";
+            _typeNameTable[26] = "System.Collections.ObjectModel.Collection`1<PrositeCM.Models.Project>";
+            _typeNameTable[27] = "PrositeCM.Models.Project";
+            _typeNameTable[28] = "PrositeCM.Views.ProjectSelectionPage";
+            _typeNameTable[29] = "PrositeCM.ViewModels.RegisterViewModel";
+            _typeNameTable[30] = "PrositeCM.Views.RegisterPage";
+            _typeNameTable[31] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[32] = "Microsoft.UI.Xaml.DependencyObject";
+            _typeNameTable[33] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[34] = "Int32";
 
-            _typeTable = new global::System.Type[26];
+            _typeTable = new global::System.Type[35];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -267,20 +276,29 @@ namespace PrositeCM.PrositeCM_XamlTypeInfo
             _typeTable[9] = typeof(global::PrositeCM.MainWindow);
             _typeTable[10] = typeof(global::Microsoft.UI.Xaml.Window);
             _typeTable[11] = typeof(global::PrositeCM.ViewModels.LoginViewModel);
-            _typeTable[12] = typeof(global::System.String);
-            _typeTable[13] = typeof(global::Microsoft.UI.Xaml.Media.AcrylicBrush);
-            _typeTable[14] = typeof(global::Microsoft.UI.Xaml.Media.XamlCompositionBrushBase);
-            _typeTable[15] = typeof(global::Windows.UI.Color);
-            _typeTable[16] = typeof(global::System.Double);
-            _typeTable[17] = typeof(global::System.Nullable<global::System.Double>);
-            _typeTable[18] = typeof(global::System.TimeSpan);
-            _typeTable[19] = typeof(global::PrositeCM.Views.LoginPage);
-            _typeTable[20] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
-            _typeTable[21] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
-            _typeTable[22] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[23] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[24] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
-            _typeTable[25] = typeof(global::System.Int32);
+            _typeTable[12] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject);
+            _typeTable[13] = typeof(global::System.String);
+            _typeTable[14] = typeof(global::CommunityToolkit.Mvvm.Input.IRelayCommand);
+            _typeTable[15] = typeof(global::Microsoft.UI.Xaml.Media.AcrylicBrush);
+            _typeTable[16] = typeof(global::Microsoft.UI.Xaml.Media.XamlCompositionBrushBase);
+            _typeTable[17] = typeof(global::Windows.UI.Color);
+            _typeTable[18] = typeof(global::System.Double);
+            _typeTable[19] = typeof(global::System.Nullable<global::System.Double>);
+            _typeTable[20] = typeof(global::System.TimeSpan);
+            _typeTable[21] = typeof(global::PrositeCM.Views.LoginPage);
+            _typeTable[22] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
+            _typeTable[23] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
+            _typeTable[24] = typeof(global::PrositeCM.ViewModels.ProjectSelectionViewModel);
+            _typeTable[25] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::PrositeCM.Models.Project>);
+            _typeTable[26] = typeof(global::System.Collections.ObjectModel.Collection<global::PrositeCM.Models.Project>);
+            _typeTable[27] = typeof(global::PrositeCM.Models.Project);
+            _typeTable[28] = typeof(global::PrositeCM.Views.ProjectSelectionPage);
+            _typeTable[29] = typeof(global::PrositeCM.ViewModels.RegisterViewModel);
+            _typeTable[30] = typeof(global::PrositeCM.Views.RegisterPage);
+            _typeTable[31] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[32] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
+            _typeTable[33] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[34] = typeof(global::System.Int32);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -319,9 +337,16 @@ namespace PrositeCM.PrositeCM_XamlTypeInfo
         private object Activate_4_MicaBackdrop() { return new global::Microsoft.UI.Xaml.Media.MicaBackdrop(); }
         private object Activate_9_MainWindow() { return new global::PrositeCM.MainWindow(); }
         private object Activate_11_LoginViewModel() { return new global::PrositeCM.ViewModels.LoginViewModel(); }
-        private object Activate_13_AcrylicBrush() { return new global::Microsoft.UI.Xaml.Media.AcrylicBrush(); }
-        private object Activate_19_LoginPage() { return new global::PrositeCM.Views.LoginPage(); }
-        private object Activate_22_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_15_AcrylicBrush() { return new global::Microsoft.UI.Xaml.Media.AcrylicBrush(); }
+        private object Activate_21_LoginPage() { return new global::PrositeCM.Views.LoginPage(); }
+        private object Activate_24_ProjectSelectionViewModel() { return new global::PrositeCM.ViewModels.ProjectSelectionViewModel(); }
+        private object Activate_25_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::PrositeCM.Models.Project>(); }
+        private object Activate_26_Collection() { return new global::System.Collections.ObjectModel.Collection<global::PrositeCM.Models.Project>(); }
+        private object Activate_27_Project() { return new global::PrositeCM.Models.Project(); }
+        private object Activate_28_ProjectSelectionPage() { return new global::PrositeCM.Views.ProjectSelectionPage(); }
+        private object Activate_29_RegisterViewModel() { return new global::PrositeCM.ViewModels.RegisterViewModel(); }
+        private object Activate_30_RegisterPage() { return new global::PrositeCM.Views.RegisterPage(); }
+        private object Activate_31_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
         private void StaticInitializer_4_MicaBackdrop() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Media.MicaBackdrop).TypeHandle);
         private void StaticInitializer_6_MicaKind() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Composition.SystemBackdrops.MicaKind).TypeHandle);
@@ -329,13 +354,22 @@ namespace PrositeCM.PrositeCM_XamlTypeInfo
         private void StaticInitializer_8_ValueType() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.ValueType).TypeHandle);
         private void StaticInitializer_9_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::PrositeCM.MainWindow).TypeHandle);
         private void StaticInitializer_11_LoginViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::PrositeCM.ViewModels.LoginViewModel).TypeHandle);
-        private void StaticInitializer_13_AcrylicBrush() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Media.AcrylicBrush).TypeHandle);
-        private void StaticInitializer_15_Color() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Windows.UI.Color).TypeHandle);
-        private void StaticInitializer_17_Nullable() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Nullable<global::System.Double>).TypeHandle);
-        private void StaticInitializer_18_TimeSpan() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.TimeSpan).TypeHandle);
-        private void StaticInitializer_19_LoginPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::PrositeCM.Views.LoginPage).TypeHandle);
-        private void StaticInitializer_22_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
-        private void StaticInitializer_24_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
+        private void StaticInitializer_12_ObservableObject() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject).TypeHandle);
+        private void StaticInitializer_14_IRelayCommand() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CommunityToolkit.Mvvm.Input.IRelayCommand).TypeHandle);
+        private void StaticInitializer_15_AcrylicBrush() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Media.AcrylicBrush).TypeHandle);
+        private void StaticInitializer_17_Color() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Windows.UI.Color).TypeHandle);
+        private void StaticInitializer_19_Nullable() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Nullable<global::System.Double>).TypeHandle);
+        private void StaticInitializer_20_TimeSpan() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.TimeSpan).TypeHandle);
+        private void StaticInitializer_21_LoginPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::PrositeCM.Views.LoginPage).TypeHandle);
+        private void StaticInitializer_24_ProjectSelectionViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::PrositeCM.ViewModels.ProjectSelectionViewModel).TypeHandle);
+        private void StaticInitializer_25_ObservableCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.ObservableCollection<global::PrositeCM.Models.Project>).TypeHandle);
+        private void StaticInitializer_26_Collection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.Collection<global::PrositeCM.Models.Project>).TypeHandle);
+        private void StaticInitializer_27_Project() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::PrositeCM.Models.Project).TypeHandle);
+        private void StaticInitializer_28_ProjectSelectionPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::PrositeCM.Views.ProjectSelectionPage).TypeHandle);
+        private void StaticInitializer_29_RegisterViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::PrositeCM.ViewModels.RegisterViewModel).TypeHandle);
+        private void StaticInitializer_30_RegisterPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::PrositeCM.Views.RegisterPage).TypeHandle);
+        private void StaticInitializer_31_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
+        private void StaticInitializer_33_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -343,7 +377,19 @@ namespace PrositeCM.PrositeCM_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
-        private void VectorAdd_24_IList(object instance, object item)
+        private void VectorAdd_25_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::PrositeCM.Models.Project>)instance;
+            var newItem = (global::PrositeCM.Models.Project)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_26_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::PrositeCM.Models.Project>)instance;
+            var newItem = (global::PrositeCM.Models.Project)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_33_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -426,24 +472,38 @@ namespace PrositeCM.PrositeCM_XamlTypeInfo
                 break;
 
             case 11:   //  PrositeCM.ViewModels.LoginViewModel
-                userType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableObject"));
                 userType.Activator = Activate_11_LoginViewModel;
                 userType.StaticInitializer = StaticInitializer_11_LoginViewModel;
                 userType.AddMemberName("Username");
                 userType.AddMemberName("Password");
                 userType.AddMemberName("ErrorMessage");
+                userType.AddMemberName("LoginCommand");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 12:   //  String
+            case 12:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+                userType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.StaticInitializer = StaticInitializer_12_ObservableObject;
+                xamlType = userType;
+                break;
+
+            case 13:   //  String
                 xamlType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 13:   //  Microsoft.UI.Xaml.Media.AcrylicBrush
+            case 14:   //  CommunityToolkit.Mvvm.Input.IRelayCommand
+                userType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.StaticInitializer = StaticInitializer_14_IRelayCommand;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 15:   //  Microsoft.UI.Xaml.Media.AcrylicBrush
                 userType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Media.XamlCompositionBrushBase"));
-                userType.Activator = Activate_13_AcrylicBrush;
-                userType.StaticInitializer = StaticInitializer_13_AcrylicBrush;
+                userType.Activator = Activate_15_AcrylicBrush;
+                userType.StaticInitializer = StaticInitializer_15_AcrylicBrush;
                 userType.AddMemberName("TintColor");
                 userType.AddMemberName("TintOpacity");
                 userType.AddMemberName("TintLuminosityOpacity");
@@ -452,57 +512,126 @@ namespace PrositeCM.PrositeCM_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 14:   //  Microsoft.UI.Xaml.Media.XamlCompositionBrushBase
+            case 16:   //  Microsoft.UI.Xaml.Media.XamlCompositionBrushBase
                 xamlType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 15:   //  Windows.UI.Color
+            case 17:   //  Windows.UI.Color
                 userType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
-                userType.StaticInitializer = StaticInitializer_15_Color;
+                userType.StaticInitializer = StaticInitializer_17_Color;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 16:   //  Double
+            case 18:   //  Double
                 xamlType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 17:   //  System.Nullable`1<Double>
+            case 19:   //  System.Nullable`1<Double>
                 userType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetBoxedType(GetXamlTypeByName("Double"));
                 userType.BoxInstance = userType.BoxType<global::System.Double>;
-                userType.StaticInitializer = StaticInitializer_17_Nullable;
+                userType.StaticInitializer = StaticInitializer_19_Nullable;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 18:   //  TimeSpan
+            case 20:   //  TimeSpan
                 userType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
-                userType.StaticInitializer = StaticInitializer_18_TimeSpan;
+                userType.StaticInitializer = StaticInitializer_20_TimeSpan;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 19:   //  PrositeCM.Views.LoginPage
+            case 21:   //  PrositeCM.Views.LoginPage
                 userType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_19_LoginPage;
-                userType.StaticInitializer = StaticInitializer_19_LoginPage;
+                userType.Activator = Activate_21_LoginPage;
+                userType.StaticInitializer = StaticInitializer_21_LoginPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 20:   //  Microsoft.UI.Xaml.Controls.Page
+            case 22:   //  Microsoft.UI.Xaml.Controls.Page
                 xamlType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 21:   //  Microsoft.UI.Xaml.Controls.UserControl
+            case 23:   //  Microsoft.UI.Xaml.Controls.UserControl
                 xamlType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 22:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 24:   //  PrositeCM.ViewModels.ProjectSelectionViewModel
+                userType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableObject"));
+                userType.Activator = Activate_24_ProjectSelectionViewModel;
+                userType.StaticInitializer = StaticInitializer_24_ProjectSelectionViewModel;
+                userType.AddMemberName("Projects");
+                userType.AddMemberName("CurrentUser");
+                userType.AddMemberName("CurrentEmail");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 25:   //  System.Collections.ObjectModel.ObservableCollection`1<PrositeCM.Models.Project>
+                userType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<PrositeCM.Models.Project>"));
+                userType.StaticInitializer = StaticInitializer_25_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_25_ObservableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 26:   //  System.Collections.ObjectModel.Collection`1<PrositeCM.Models.Project>
+                userType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_26_Collection;
+                userType.StaticInitializer = StaticInitializer_26_Collection;
+                userType.CollectionAdd = VectorAdd_26_Collection;
+                xamlType = userType;
+                break;
+
+            case 27:   //  PrositeCM.Models.Project
+                userType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_27_Project;
+                userType.StaticInitializer = StaticInitializer_27_Project;
+                userType.AddMemberName("Name");
+                userType.AddMemberName("Role");
+                userType.AddMemberName("Description");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 28:   //  PrositeCM.Views.ProjectSelectionPage
+                userType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_28_ProjectSelectionPage;
+                userType.StaticInitializer = StaticInitializer_28_ProjectSelectionPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 29:   //  PrositeCM.ViewModels.RegisterViewModel
+                userType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableObject"));
+                userType.Activator = Activate_29_RegisterViewModel;
+                userType.StaticInitializer = StaticInitializer_29_RegisterViewModel;
+                userType.AddMemberName("Email");
+                userType.AddMemberName("Password");
+                userType.AddMemberName("Company");
+                userType.AddMemberName("Position");
+                userType.AddMemberName("ErrorMessage");
+                userType.AddMemberName("RegisterCommand");
+                userType.AddMemberName("GoBackCommand");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 30:   //  PrositeCM.Views.RegisterPage
+                userType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_30_RegisterPage;
+                userType.StaticInitializer = StaticInitializer_30_RegisterPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 31:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_22_TreeViewNode;
-                userType.StaticInitializer = StaticInitializer_22_TreeViewNode;
+                userType.Activator = Activate_31_TreeViewNode;
+                userType.StaticInitializer = StaticInitializer_31_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -514,19 +643,19 @@ namespace PrositeCM.PrositeCM_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 23:   //  Microsoft.UI.Xaml.DependencyObject
+            case 32:   //  Microsoft.UI.Xaml.DependencyObject
                 xamlType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 24:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 33:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_24_IList;
-                userType.CollectionAdd = VectorAdd_24_IList;
+                userType.StaticInitializer = StaticInitializer_33_IList;
+                userType.CollectionAdd = VectorAdd_33_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 25:   //  Int32
+            case 34:   //  Int32
                 xamlType = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -638,102 +767,227 @@ namespace PrositeCM.PrositeCM_XamlTypeInfo
             var that = (global::PrositeCM.ViewModels.LoginViewModel)instance;
             that.ErrorMessage = (global::System.String)Value;
         }
-        private object get_5_AcrylicBrush_TintColor(object instance)
+        private object get_5_LoginViewModel_LoginCommand(object instance)
+        {
+            var that = (global::PrositeCM.ViewModels.LoginViewModel)instance;
+            return that.LoginCommand;
+        }
+        private object get_6_AcrylicBrush_TintColor(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Media.AcrylicBrush)instance;
             return that.TintColor;
         }
-        private void set_5_AcrylicBrush_TintColor(object instance, object Value)
+        private void set_6_AcrylicBrush_TintColor(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Media.AcrylicBrush)instance;
             that.TintColor = (global::Windows.UI.Color)Value;
         }
-        private object get_6_AcrylicBrush_TintOpacity(object instance)
+        private object get_7_AcrylicBrush_TintOpacity(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Media.AcrylicBrush)instance;
             return that.TintOpacity;
         }
-        private void set_6_AcrylicBrush_TintOpacity(object instance, object Value)
+        private void set_7_AcrylicBrush_TintOpacity(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Media.AcrylicBrush)instance;
             that.TintOpacity = (global::System.Double)Value;
         }
-        private object get_7_AcrylicBrush_TintLuminosityOpacity(object instance)
+        private object get_8_AcrylicBrush_TintLuminosityOpacity(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Media.AcrylicBrush)instance;
             return that.TintLuminosityOpacity;
         }
-        private void set_7_AcrylicBrush_TintLuminosityOpacity(object instance, object Value)
+        private void set_8_AcrylicBrush_TintLuminosityOpacity(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Media.AcrylicBrush)instance;
             that.TintLuminosityOpacity = (global::System.Nullable<global::System.Double>)Value;
         }
-        private object get_8_AcrylicBrush_AlwaysUseFallback(object instance)
+        private object get_9_AcrylicBrush_AlwaysUseFallback(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Media.AcrylicBrush)instance;
             return that.AlwaysUseFallback;
         }
-        private void set_8_AcrylicBrush_AlwaysUseFallback(object instance, object Value)
+        private void set_9_AcrylicBrush_AlwaysUseFallback(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Media.AcrylicBrush)instance;
             that.AlwaysUseFallback = (global::System.Boolean)Value;
         }
-        private object get_9_AcrylicBrush_TintTransitionDuration(object instance)
+        private object get_10_AcrylicBrush_TintTransitionDuration(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Media.AcrylicBrush)instance;
             return that.TintTransitionDuration;
         }
-        private void set_9_AcrylicBrush_TintTransitionDuration(object instance, object Value)
+        private void set_10_AcrylicBrush_TintTransitionDuration(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Media.AcrylicBrush)instance;
             that.TintTransitionDuration = (global::System.TimeSpan)Value;
         }
-        private object get_10_TreeViewNode_Children(object instance)
+        private object get_11_ProjectSelectionViewModel_Projects(object instance)
+        {
+            var that = (global::PrositeCM.ViewModels.ProjectSelectionViewModel)instance;
+            return that.Projects;
+        }
+        private void set_11_ProjectSelectionViewModel_Projects(object instance, object Value)
+        {
+            var that = (global::PrositeCM.ViewModels.ProjectSelectionViewModel)instance;
+            that.Projects = (global::System.Collections.ObjectModel.ObservableCollection<global::PrositeCM.Models.Project>)Value;
+        }
+        private object get_12_Project_Name(object instance)
+        {
+            var that = (global::PrositeCM.Models.Project)instance;
+            return that.Name;
+        }
+        private void set_12_Project_Name(object instance, object Value)
+        {
+            var that = (global::PrositeCM.Models.Project)instance;
+            that.Name = (global::System.String)Value;
+        }
+        private object get_13_Project_Role(object instance)
+        {
+            var that = (global::PrositeCM.Models.Project)instance;
+            return that.Role;
+        }
+        private void set_13_Project_Role(object instance, object Value)
+        {
+            var that = (global::PrositeCM.Models.Project)instance;
+            that.Role = (global::System.String)Value;
+        }
+        private object get_14_Project_Description(object instance)
+        {
+            var that = (global::PrositeCM.Models.Project)instance;
+            return that.Description;
+        }
+        private void set_14_Project_Description(object instance, object Value)
+        {
+            var that = (global::PrositeCM.Models.Project)instance;
+            that.Description = (global::System.String)Value;
+        }
+        private object get_15_ProjectSelectionViewModel_CurrentUser(object instance)
+        {
+            var that = (global::PrositeCM.ViewModels.ProjectSelectionViewModel)instance;
+            return that.CurrentUser;
+        }
+        private void set_15_ProjectSelectionViewModel_CurrentUser(object instance, object Value)
+        {
+            var that = (global::PrositeCM.ViewModels.ProjectSelectionViewModel)instance;
+            that.CurrentUser = (global::System.String)Value;
+        }
+        private object get_16_ProjectSelectionViewModel_CurrentEmail(object instance)
+        {
+            var that = (global::PrositeCM.ViewModels.ProjectSelectionViewModel)instance;
+            return that.CurrentEmail;
+        }
+        private void set_16_ProjectSelectionViewModel_CurrentEmail(object instance, object Value)
+        {
+            var that = (global::PrositeCM.ViewModels.ProjectSelectionViewModel)instance;
+            that.CurrentEmail = (global::System.String)Value;
+        }
+        private object get_17_RegisterViewModel_Email(object instance)
+        {
+            var that = (global::PrositeCM.ViewModels.RegisterViewModel)instance;
+            return that.Email;
+        }
+        private void set_17_RegisterViewModel_Email(object instance, object Value)
+        {
+            var that = (global::PrositeCM.ViewModels.RegisterViewModel)instance;
+            that.Email = (global::System.String)Value;
+        }
+        private object get_18_RegisterViewModel_Password(object instance)
+        {
+            var that = (global::PrositeCM.ViewModels.RegisterViewModel)instance;
+            return that.Password;
+        }
+        private void set_18_RegisterViewModel_Password(object instance, object Value)
+        {
+            var that = (global::PrositeCM.ViewModels.RegisterViewModel)instance;
+            that.Password = (global::System.String)Value;
+        }
+        private object get_19_RegisterViewModel_Company(object instance)
+        {
+            var that = (global::PrositeCM.ViewModels.RegisterViewModel)instance;
+            return that.Company;
+        }
+        private void set_19_RegisterViewModel_Company(object instance, object Value)
+        {
+            var that = (global::PrositeCM.ViewModels.RegisterViewModel)instance;
+            that.Company = (global::System.String)Value;
+        }
+        private object get_20_RegisterViewModel_Position(object instance)
+        {
+            var that = (global::PrositeCM.ViewModels.RegisterViewModel)instance;
+            return that.Position;
+        }
+        private void set_20_RegisterViewModel_Position(object instance, object Value)
+        {
+            var that = (global::PrositeCM.ViewModels.RegisterViewModel)instance;
+            that.Position = (global::System.String)Value;
+        }
+        private object get_21_RegisterViewModel_ErrorMessage(object instance)
+        {
+            var that = (global::PrositeCM.ViewModels.RegisterViewModel)instance;
+            return that.ErrorMessage;
+        }
+        private void set_21_RegisterViewModel_ErrorMessage(object instance, object Value)
+        {
+            var that = (global::PrositeCM.ViewModels.RegisterViewModel)instance;
+            that.ErrorMessage = (global::System.String)Value;
+        }
+        private object get_22_RegisterViewModel_RegisterCommand(object instance)
+        {
+            var that = (global::PrositeCM.ViewModels.RegisterViewModel)instance;
+            return that.RegisterCommand;
+        }
+        private object get_23_RegisterViewModel_GoBackCommand(object instance)
+        {
+            var that = (global::PrositeCM.ViewModels.RegisterViewModel)instance;
+            return that.GoBackCommand;
+        }
+        private object get_24_TreeViewNode_Children(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Children;
         }
-        private object get_11_TreeViewNode_Content(object instance)
+        private object get_25_TreeViewNode_Content(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Content;
         }
-        private void set_11_TreeViewNode_Content(object instance, object Value)
+        private void set_25_TreeViewNode_Content(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.Content = (global::System.Object)Value;
         }
-        private object get_12_TreeViewNode_Depth(object instance)
+        private object get_26_TreeViewNode_Depth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Depth;
         }
-        private object get_13_TreeViewNode_HasChildren(object instance)
+        private object get_27_TreeViewNode_HasChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasChildren;
         }
-        private object get_14_TreeViewNode_HasUnrealizedChildren(object instance)
+        private object get_28_TreeViewNode_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_14_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
+        private void set_28_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_15_TreeViewNode_IsExpanded(object instance)
+        private object get_29_TreeViewNode_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.IsExpanded;
         }
-        private void set_15_TreeViewNode_IsExpanded(object instance, object Value)
+        private void set_29_TreeViewNode_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
-        private object get_16_TreeViewNode_Parent(object instance)
+        private object get_30_TreeViewNode_Parent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Parent;
@@ -778,85 +1032,169 @@ namespace PrositeCM.PrositeCM_XamlTypeInfo
                 xamlMember.Getter = get_4_LoginViewModel_ErrorMessage;
                 xamlMember.Setter = set_4_LoginViewModel_ErrorMessage;
                 break;
+            case "PrositeCM.ViewModels.LoginViewModel.LoginCommand":
+                userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PrositeCM.ViewModels.LoginViewModel");
+                xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "LoginCommand", "CommunityToolkit.Mvvm.Input.IRelayCommand");
+                xamlMember.Getter = get_5_LoginViewModel_LoginCommand;
+                xamlMember.SetIsReadOnly();
+                break;
             case "Microsoft.UI.Xaml.Media.AcrylicBrush.TintColor":
                 userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Media.AcrylicBrush");
                 xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "TintColor", "Windows.UI.Color");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_5_AcrylicBrush_TintColor;
-                xamlMember.Setter = set_5_AcrylicBrush_TintColor;
+                xamlMember.Getter = get_6_AcrylicBrush_TintColor;
+                xamlMember.Setter = set_6_AcrylicBrush_TintColor;
                 break;
             case "Microsoft.UI.Xaml.Media.AcrylicBrush.TintOpacity":
                 userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Media.AcrylicBrush");
                 xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "TintOpacity", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_6_AcrylicBrush_TintOpacity;
-                xamlMember.Setter = set_6_AcrylicBrush_TintOpacity;
+                xamlMember.Getter = get_7_AcrylicBrush_TintOpacity;
+                xamlMember.Setter = set_7_AcrylicBrush_TintOpacity;
                 break;
             case "Microsoft.UI.Xaml.Media.AcrylicBrush.TintLuminosityOpacity":
                 userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Media.AcrylicBrush");
                 xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "TintLuminosityOpacity", "System.Nullable`1<Double>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_7_AcrylicBrush_TintLuminosityOpacity;
-                xamlMember.Setter = set_7_AcrylicBrush_TintLuminosityOpacity;
+                xamlMember.Getter = get_8_AcrylicBrush_TintLuminosityOpacity;
+                xamlMember.Setter = set_8_AcrylicBrush_TintLuminosityOpacity;
                 break;
             case "Microsoft.UI.Xaml.Media.AcrylicBrush.AlwaysUseFallback":
                 userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Media.AcrylicBrush");
                 xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "AlwaysUseFallback", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_8_AcrylicBrush_AlwaysUseFallback;
-                xamlMember.Setter = set_8_AcrylicBrush_AlwaysUseFallback;
+                xamlMember.Getter = get_9_AcrylicBrush_AlwaysUseFallback;
+                xamlMember.Setter = set_9_AcrylicBrush_AlwaysUseFallback;
                 break;
             case "Microsoft.UI.Xaml.Media.AcrylicBrush.TintTransitionDuration":
                 userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Media.AcrylicBrush");
                 xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "TintTransitionDuration", "TimeSpan");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_9_AcrylicBrush_TintTransitionDuration;
-                xamlMember.Setter = set_9_AcrylicBrush_TintTransitionDuration;
+                xamlMember.Getter = get_10_AcrylicBrush_TintTransitionDuration;
+                xamlMember.Setter = set_10_AcrylicBrush_TintTransitionDuration;
+                break;
+            case "PrositeCM.ViewModels.ProjectSelectionViewModel.Projects":
+                userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PrositeCM.ViewModels.ProjectSelectionViewModel");
+                xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "Projects", "System.Collections.ObjectModel.ObservableCollection`1<PrositeCM.Models.Project>");
+                xamlMember.Getter = get_11_ProjectSelectionViewModel_Projects;
+                xamlMember.Setter = set_11_ProjectSelectionViewModel_Projects;
+                break;
+            case "PrositeCM.Models.Project.Name":
+                userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PrositeCM.Models.Project");
+                xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "Name", "String");
+                xamlMember.Getter = get_12_Project_Name;
+                xamlMember.Setter = set_12_Project_Name;
+                break;
+            case "PrositeCM.Models.Project.Role":
+                userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PrositeCM.Models.Project");
+                xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "Role", "String");
+                xamlMember.Getter = get_13_Project_Role;
+                xamlMember.Setter = set_13_Project_Role;
+                break;
+            case "PrositeCM.Models.Project.Description":
+                userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PrositeCM.Models.Project");
+                xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "Description", "String");
+                xamlMember.Getter = get_14_Project_Description;
+                xamlMember.Setter = set_14_Project_Description;
+                break;
+            case "PrositeCM.ViewModels.ProjectSelectionViewModel.CurrentUser":
+                userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PrositeCM.ViewModels.ProjectSelectionViewModel");
+                xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "CurrentUser", "String");
+                xamlMember.Getter = get_15_ProjectSelectionViewModel_CurrentUser;
+                xamlMember.Setter = set_15_ProjectSelectionViewModel_CurrentUser;
+                break;
+            case "PrositeCM.ViewModels.ProjectSelectionViewModel.CurrentEmail":
+                userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PrositeCM.ViewModels.ProjectSelectionViewModel");
+                xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "CurrentEmail", "String");
+                xamlMember.Getter = get_16_ProjectSelectionViewModel_CurrentEmail;
+                xamlMember.Setter = set_16_ProjectSelectionViewModel_CurrentEmail;
+                break;
+            case "PrositeCM.ViewModels.RegisterViewModel.Email":
+                userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PrositeCM.ViewModels.RegisterViewModel");
+                xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "Email", "String");
+                xamlMember.Getter = get_17_RegisterViewModel_Email;
+                xamlMember.Setter = set_17_RegisterViewModel_Email;
+                break;
+            case "PrositeCM.ViewModels.RegisterViewModel.Password":
+                userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PrositeCM.ViewModels.RegisterViewModel");
+                xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "Password", "String");
+                xamlMember.Getter = get_18_RegisterViewModel_Password;
+                xamlMember.Setter = set_18_RegisterViewModel_Password;
+                break;
+            case "PrositeCM.ViewModels.RegisterViewModel.Company":
+                userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PrositeCM.ViewModels.RegisterViewModel");
+                xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "Company", "String");
+                xamlMember.Getter = get_19_RegisterViewModel_Company;
+                xamlMember.Setter = set_19_RegisterViewModel_Company;
+                break;
+            case "PrositeCM.ViewModels.RegisterViewModel.Position":
+                userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PrositeCM.ViewModels.RegisterViewModel");
+                xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "Position", "String");
+                xamlMember.Getter = get_20_RegisterViewModel_Position;
+                xamlMember.Setter = set_20_RegisterViewModel_Position;
+                break;
+            case "PrositeCM.ViewModels.RegisterViewModel.ErrorMessage":
+                userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PrositeCM.ViewModels.RegisterViewModel");
+                xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "ErrorMessage", "String");
+                xamlMember.Getter = get_21_RegisterViewModel_ErrorMessage;
+                xamlMember.Setter = set_21_RegisterViewModel_ErrorMessage;
+                break;
+            case "PrositeCM.ViewModels.RegisterViewModel.RegisterCommand":
+                userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PrositeCM.ViewModels.RegisterViewModel");
+                xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "RegisterCommand", "CommunityToolkit.Mvvm.Input.IRelayCommand");
+                xamlMember.Getter = get_22_RegisterViewModel_RegisterCommand;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "PrositeCM.ViewModels.RegisterViewModel.GoBackCommand":
+                userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PrositeCM.ViewModels.RegisterViewModel");
+                xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "GoBackCommand", "CommunityToolkit.Mvvm.Input.IRelayCommand");
+                xamlMember.Getter = get_23_RegisterViewModel_GoBackCommand;
+                xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
                 userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
-                xamlMember.Getter = get_10_TreeViewNode_Children;
+                xamlMember.Getter = get_24_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
                 userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_11_TreeViewNode_Content;
-                xamlMember.Setter = set_11_TreeViewNode_Content;
+                xamlMember.Getter = get_25_TreeViewNode_Content;
+                xamlMember.Setter = set_25_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
                 userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_12_TreeViewNode_Depth;
+                xamlMember.Getter = get_26_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
                 userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_13_TreeViewNode_HasChildren;
+                xamlMember.Getter = get_27_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
                 userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
-                xamlMember.Getter = get_14_TreeViewNode_HasUnrealizedChildren;
-                xamlMember.Setter = set_14_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Getter = get_28_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Setter = set_28_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
                 userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_15_TreeViewNode_IsExpanded;
-                xamlMember.Setter = set_15_TreeViewNode_IsExpanded;
+                xamlMember.Getter = get_29_TreeViewNode_IsExpanded;
+                xamlMember.Setter = set_29_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
                 userType = (global::PrositeCM.PrositeCM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::PrositeCM.PrositeCM_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember.Getter = get_16_TreeViewNode_Parent;
+                xamlMember.Getter = get_30_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
             }

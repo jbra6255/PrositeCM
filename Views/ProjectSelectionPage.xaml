@@ -36,7 +36,8 @@
                     HorizontalAlignment="Right" 
                     VerticalAlignment="Top"
                     BorderBrush="{ThemeResource SystemFillColorCriticalBrush}"
-                    Foreground="{ThemeResource SystemFillColorCriticalBrush}"/>
+                    Foreground="{ThemeResource SystemFillColorCriticalBrush}"
+                    Click="LogoutButton_Click"/>
         </Grid>
 
         <Border Grid.Row="1" 

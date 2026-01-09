@@ -1,1 +1,1 @@
-C:\Users\john.braglin\Documents\Visual Studio 26\PrositeCM\PrositeCM\PrositeCM.csproj;x64
+C:\Users\john.braglin\source\repos\Prosite-Construction-Management\PrositeCM.csproj;x64
