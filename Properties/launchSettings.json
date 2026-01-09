@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PrositeCM (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "PrositeCM (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
