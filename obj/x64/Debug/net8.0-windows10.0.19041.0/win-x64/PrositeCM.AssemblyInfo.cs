@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrositeCM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97fd99535cad114f73dc56c1143416890d937780")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+810664934b6a5719d3700a4ce1377eef0d5b0273")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrositeCM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrositeCM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
