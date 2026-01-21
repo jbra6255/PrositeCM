@@ -25,7 +25,7 @@ namespace PrositeCM.Views
             }
         }
 
-        private void ViewModel_LoginSuccessful(object sender, EventArgs e)
+        private void ViewModel_LoginSuccessful(object? sender, EventArgs e)
         {
             // Navigate to the main project page
             this.Frame.Navigate(typeof(ProjectSelectionPage));

@@ -4,6 +4,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="../PrositeCM.core/PrositeCM.core.csproj" Id="0a75554d-f684-4727-a0e6-26b6df6680d7" />
   <Project Path="PrositeCM.csproj">
     <Platform Solution="*|ARM64" Project="ARM64" />
     <Platform Solution="*|x64" Project="x64" />

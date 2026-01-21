@@ -1342,6 +1342,19 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "PrositeCM.core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.12"
+        },
+        "compile": {
+          "bin/placeholder/PrositeCM.core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PrositeCM.core.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/win-arm64": {
@@ -2558,6 +2571,19 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "PrositeCM.core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.12"
+        },
+        "compile": {
+          "bin/placeholder/PrositeCM.core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PrositeCM.core.dll": {}
         }
       }
     },
@@ -3776,6 +3802,19 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "PrositeCM.core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.12"
+        },
+        "compile": {
+          "bin/placeholder/PrositeCM.core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PrositeCM.core.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/win-x86": {
@@ -4992,6 +5031,19 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "PrositeCM.core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.12"
+        },
+        "compile": {
+          "bin/placeholder/PrositeCM.core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PrositeCM.core.dll": {}
         }
       }
     }
@@ -8367,6 +8419,11 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "PrositeCM.core/1.0.0": {
+      "type": "project",
+      "path": "../PrositeCM.core/PrositeCM.core.csproj",
+      "msbuildProject": "../PrositeCM.core/PrositeCM.core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8375,27 +8432,28 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.12",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.12",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.26100.7463",
-      "Microsoft.WindowsAppSDK >= 1.8.251106002"
+      "Microsoft.WindowsAppSDK >= 1.8.251106002",
+      "PrositeCM.core >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\john.braglin\\.nuget\\packages\\": {},
+    "C:\\Users\\johnb\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\john.braglin\\source\\repos\\Prosite-Construction-Management\\PrositeCM.csproj",
+      "projectUniqueName": "C:\\Users\\johnb\\source\\repos\\PrositeCM\\PrositeCM.csproj",
       "projectName": "PrositeCM",
-      "projectPath": "C:\\Users\\john.braglin\\source\\repos\\Prosite-Construction-Management\\PrositeCM.csproj",
-      "packagesPath": "C:\\Users\\john.braglin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\john.braglin\\source\\repos\\Prosite-Construction-Management\\obj\\",
+      "projectPath": "C:\\Users\\johnb\\source\\repos\\PrositeCM\\PrositeCM.csproj",
+      "packagesPath": "C:\\Users\\johnb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\johnb\\source\\repos\\PrositeCM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\john.braglin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\johnb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8409,7 +8467,11 @@
       "frameworks": {
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\johnb\\source\\repos\\PrositeCM.core\\PrositeCM.core.csproj": {
+              "projectPath": "C:\\Users\\johnb\\source\\repos\\PrositeCM.core\\PrositeCM.core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -8465,27 +8527,27 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
-            "version": "[8.0.22, 8.0.22]"
+            "version": "[8.0.23, 8.0.23]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[8.0.22, 8.0.22]"
+            "version": "[8.0.23, 8.0.23]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-            "version": "[8.0.22, 8.0.22]"
+            "version": "[8.0.23, 8.0.23]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-arm64",
-            "version": "[8.0.22, 8.0.22]"
+            "version": "[8.0.23, 8.0.23]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[8.0.22, 8.0.22]"
+            "version": "[8.0.23, 8.0.23]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x86",
-            "version": "[8.0.22, 8.0.22]"
+            "version": "[8.0.23, 8.0.23]"
           },
           {
             "name": "Microsoft.Windows.SDK.NET.Ref",
@@ -8493,15 +8555,15 @@
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
-            "version": "[8.0.22, 8.0.22]"
+            "version": "[8.0.23, 8.0.23]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[8.0.22, 8.0.22]"
+            "version": "[8.0.23, 8.0.23]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-            "version": "[8.0.22, 8.0.22]"
+            "version": "[8.0.23, 8.0.23]"
           }
         ],
         "frameworkReferences": {
@@ -8512,7 +8574,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

@@ -1,1 +1,1 @@
-C:\Users\john.braglin\source\repos\Prosite-Construction-Management\PrositeCM.csproj;x64
+C:\Users\johnb\source\repos\PrositeCM\PrositeCM.csproj;x64

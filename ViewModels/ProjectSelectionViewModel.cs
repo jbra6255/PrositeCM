@@ -1,12 +1,16 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using System.Collections.ObjectModel;
-using PrositeCM.Models;
+using PrositeCM.Models; // Ensure this matches your Model namespace (Capital 'S')
+using Microsoft.EntityFrameworkCore; // Required for .Include()
+using System.Linq;
 
 namespace PrositeCM.ViewModels
 {
     public partial class ProjectSelectionViewModel : ObservableObject
     {
         private ObservableCollection<Project> _projects = new();
+
+        // You can keep these for now to display in the UI corner
         private string _currentUser = "admin";
         private string _currentEmail = "admin@prosite.com";
 
@@ -33,14 +37,28 @@ namespace PrositeCM.ViewModels
             LoadProjects();
         }
 
-        private void LoadProjects()
+        public void LoadProjects()
         {
-            // The 'required' keyword in Project.cs allows this clean initialization
-            Projects.Add(new Project { Name = "Test Project 1", Role = "Owner", Description = "Initial testing phase" });
-            Projects.Add(new Project { Name = "240 - Park Outlook", Role = "Owner", Description = "Residential complex" });
-            Projects.Add(new Project { Name = "TB Building 5", Role = "Owner", Description = "Commercial refit" });
-            Projects.Add(new Project { Name = "Durham Summit", Role = "Owner", Description = "Main structure" });
-            Projects.Add(new Project { Name = "Durham Tech - Group 3", Role = "Owner", Description = "Educational wing" });
+            Projects.Clear();
+
+            // Connect to the database
+            using (var db = new PrositeDbContext())
+            {
+                // Safety check: Creates the db file if it doesn't exist yet
+                db.Database.EnsureCreated();
+
+                // 3. Fetch projects from DB
+                // Using .Include(p => p.Owner) so we can display the owner's name if needed
+                var dbProjects = db.Projects
+                                   .Include(p => p.Owner)
+                                   .ToList();
+
+                // Add them to the ObservableCollection so the UI updates
+                foreach (var project in dbProjects)
+                {
+                    Projects.Add(project);
+                }
+            }
         }
     }
 }
