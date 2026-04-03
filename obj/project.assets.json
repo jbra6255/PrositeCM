@@ -1342,19 +1342,6 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
-      },
-      "PrositeCM.core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.12"
-        },
-        "compile": {
-          "bin/placeholder/PrositeCM.core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PrositeCM.core.dll": {}
-        }
       }
     },
     "net8.0-windows10.0.19041/win-arm64": {
@@ -2571,19 +2558,6 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
-      "PrositeCM.core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.12"
-        },
-        "compile": {
-          "bin/placeholder/PrositeCM.core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PrositeCM.core.dll": {}
         }
       }
     },
@@ -3802,19 +3776,6 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
-      },
-      "PrositeCM.core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.12"
-        },
-        "compile": {
-          "bin/placeholder/PrositeCM.core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PrositeCM.core.dll": {}
-        }
       }
     },
     "net8.0-windows10.0.19041/win-x86": {
@@ -5031,19 +4992,6 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
-      "PrositeCM.core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.12"
-        },
-        "compile": {
-          "bin/placeholder/PrositeCM.core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PrositeCM.core.dll": {}
         }
       }
     }
@@ -8419,41 +8367,36 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "PrositeCM.core/1.0.0": {
-      "type": "project",
-      "path": "../PrositeCM.core/PrositeCM.core.csproj",
-      "msbuildProject": "../PrositeCM.core/PrositeCM.core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows10.0.19041": [
+      "C:\\Users\\john.braglin\\source\\repos\\PrositeCM.core\\PrositeCM.core.csproj",
       "CommunityToolkit.Mvvm >= 8.4.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.12",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.12",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.26100.7463",
-      "Microsoft.WindowsAppSDK >= 1.8.251106002",
-      "PrositeCM.core >= 1.0.0"
+      "Microsoft.WindowsAppSDK >= 1.8.251106002"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\johnb\\.nuget\\packages\\": {},
+    "C:\\Users\\john.braglin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\johnb\\source\\repos\\PrositeCM\\PrositeCM.csproj",
+      "projectUniqueName": "C:\\Users\\john.braglin\\source\\repos\\Prosite-Construction-Management\\PrositeCM.csproj",
       "projectName": "PrositeCM",
-      "projectPath": "C:\\Users\\johnb\\source\\repos\\PrositeCM\\PrositeCM.csproj",
-      "packagesPath": "C:\\Users\\johnb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\johnb\\source\\repos\\PrositeCM\\obj\\",
+      "projectPath": "C:\\Users\\john.braglin\\source\\repos\\Prosite-Construction-Management\\PrositeCM.csproj",
+      "packagesPath": "C:\\Users\\john.braglin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\john.braglin\\source\\repos\\Prosite-Construction-Management\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\johnb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\john.braglin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8468,8 +8411,8 @@
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "projectReferences": {
-            "C:\\Users\\johnb\\source\\repos\\PrositeCM.core\\PrositeCM.core.csproj": {
-              "projectPath": "C:\\Users\\johnb\\source\\repos\\PrositeCM.core\\PrositeCM.core.csproj"
+            "C:\\Users\\john.braglin\\source\\repos\\PrositeCM.core\\PrositeCM.core.csproj": {
+              "projectPath": "C:\\Users\\john.braglin\\source\\repos\\PrositeCM.core\\PrositeCM.core.csproj"
             }
           }
         }
@@ -8588,5 +8531,19 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\john.braglin\\source\\repos\\PrositeCM.core\\PrositeCM.core.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\john.braglin\\source\\repos\\PrositeCM.core\\PrositeCM.core.csproj",
+      "targetGraphs": [
+        "net8.0-windows10.0.19041.0",
+        "net8.0-windows10.0.19041.0/win-arm64",
+        "net8.0-windows10.0.19041.0/win-x64",
+        "net8.0-windows10.0.19041.0/win-x86"
+      ]
+    }
+  ]
 }
